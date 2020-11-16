@@ -1,0 +1,251 @@
+body{
+	color: #fff;
+}
+/*Top Section*/
+.top-section{
+	background-image: url("img/m5.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	width: 100%;
+}
+.navbar{
+	background-image: url("img/132.png");
+	padding: 20px 200px;
+}
+.nav-item{
+	margin-right: 10px;
+}
+.nav-link{
+	font-size: 20px;
+}
+.actively{
+	border-bottom: 1px solid #fff;
+}
+.top-div{
+	padding-top:150px; 
+}
+.btn{
+	background-color: transparent;
+	border: 1px solid #fff;
+	font-size: 19px;
+	padding: 10px 20px;
+}
+.btn:hover{
+	background-color: #0000FF;
+	color: #fff;
+	border: none;
+}
+.header-text{
+	margin-top: -170px;
+	margin-left: 250px;
+}
+.header-text p{
+	font-size: 20px;
+}
+
+
+/*Why Us Section*/
+#why-us{
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+}
+
+.heading{
+	padding: 50px 150px 50px 200px;
+}
+.heading h3{
+	font-size: 60px;
+}
+.list-div .row .col-md-4 ul{
+	font-size: 20px;
+	list-style:none; 
+}
+.card{
+	background-color: transparent;
+	border: none;
+	width: 100%;
+}
+
+/*Our Services*/
+#services{
+	background-image: linear-gradient(20deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0.3981967787114846) 37%),url("img/m4.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	color: #000;
+	padding-bottom: 30px; 
+}
+.serv-head{
+	color: #000;
+}
+
+
+/*Our Mechanics*/
+#mechanics{
+	color: #000;
+}
+.card-img-top{
+	height: 350px;
+	width: 100%;
+}
+
+/*Visit*/
+#visit{
+	background-color: #000;
+}
+.write{
+	background-image: url("img/write.jpg");
+	background-position: top center;
+	background-size: cover;
+}
+.floating {
+    -webkit-animation-name: floating;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes floating {
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+@-moz-keyframes floating {
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+/*Footer*/
+footer{
+	background-color: #000011;
+}
+.foot-logo{
+	height: 150px;
+	width: 150px;
+}
+
+
+
+
+/*General Classes*/
+.ca{
+	text-align: center;
+}
+.la{
+	text-align: left;
+}
+.ra{
+	text-align: right;
+}
+.mt-10{
+	margin-top: 10px;
+}
+.mt-30{
+	margin-top: 30px;
+}
+.mtm-50{
+	margin-top: 50px;
+}
+.mt-50{
+	margin-top: 50px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.mt-150{
+	margin-top: 150px;
+}
+.ml-50{
+	margin-left: 50px;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.pt-20{
+	padding-bottom: 20px;
+}
+.pl-30{
+	padding-left: 30px;
+}
+.pr-30{
+	padding-right: 30px;
+}
+.ft-25{
+	font-size: 25px;
+}
+.ft-30{
+	font-size: 30px;
+}
+.white{
+	color: #fff;
+}
+
+
+
+/*Mobile */
+@media only screen and (max-device-width:999px){
+	.top-section{
+		background-image: url("img/m5.jpg");
+		background-size: cover;
+		background-position: center 30%;
+		height: 100vh;
+		width: 100vw;
+	}
+	.navbar{
+		padding: 20px;
+	}
+	.logo{
+		height: 200px;
+		width: 200px;
+	}
+	.top-div{
+		padding-top: 250px; 
+	}
+	.header-text{
+		background-image: url("img/132.png");
+		margin-top: -50px;
+		margin-left: 50px;
+		padding: 0 20px;
+	}
+	.heading{
+		padding: 10px 15px 10px 20px;
+	}
+	.heading h3{
+		font-size: 40px;
+	}
+	#services{
+		background-image: linear-gradient(20deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0.3981967787114846) 37%),url("img/m4.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+		color: #000;
+		padding-bottom: 30px;
+	}
+	.mech{
+		padding: 0 25px;
+	}
+	.ft-30{
+		font-size: 22px;
+	}
+	.ft-25{
+		font-size: 19px;
+	}
+	.mtm-50{
+		margin-top: 0;
+	}
+	.mt-100{
+		margin-top: 0;
+	}
+	.mt-150{
+		margin-top: 0;
+	}
+	.mcs{
+		height: 30px;
+		width: 30px;
+	}
+}
